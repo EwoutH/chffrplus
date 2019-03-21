@@ -1,5 +1,11 @@
 language: c
+dist: xenial
+
+compiler:
+  - clang
+  - gcc
 
 script:
  - make
- - make test
+ - cd cereal
+ - make
