@@ -7,7 +7,7 @@ compiler:
 
 script:
  - make
- - .launch_chffrplus.sh
- - .panda/run_automated_tests.sh
+ - ./launch_chffrplus.sh
+ - ./panda/run_automated_tests.sh
  - cd cereal
  - make
